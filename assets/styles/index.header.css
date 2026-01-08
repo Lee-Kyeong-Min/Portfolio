@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 50rem) {
     #header > .menu > .title {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     #header > .small-menu {
@@ -89,7 +89,7 @@
     }
 
     #header > .small-menu > .list > .item > a {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     #header > .small-menu > .list > .item > a:hover {

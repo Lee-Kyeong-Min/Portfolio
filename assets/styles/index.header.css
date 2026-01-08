@@ -89,12 +89,33 @@
     }
 
     #header > .small-menu > .list > .item > a {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     #header > .small-menu > .list > .item > a:hover {
         cursor: pointer;
         color: #1e73be;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    #header > .menu > .title {
+        font-size: 1.5rem;
+    }
+
+    #header > .small-menu {
+        padding-top: 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    #header > .small-menu > .list > .item > a {
+        font-size: 0.5rem;
+    }
+
+    #header > .small-menu > .list > .item > a:hover {
+        cursor: pointer;
+        color: #1e73be;
+        font-size: 0.5rem;
     }
 }

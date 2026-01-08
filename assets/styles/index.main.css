@@ -520,9 +520,6 @@
 
     width: 100%;
 
-    border-top: 0.12rem solid #000000;
-    border-bottom: 0.12rem solid #000000;
-
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -534,6 +531,9 @@
 
     margin-top: 2rem;
     margin-bottom: 1rem;
+    padding-top: 2rem;
+
+    border-top: 0.12rem solid #000000;
 
     align-items: center;
     display: flex;

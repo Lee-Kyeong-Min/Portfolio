@@ -187,7 +187,7 @@
 }
 
 #main > .experiences > .title {
-    margin: 12rem 0 3rem 0;
+    margin: 4.5rem 0 3rem 0;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -354,13 +354,50 @@
 }
 
 #main > .certification > .container {
-    /*align-items: center;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: center;*/
-    /*gap: 4rem;*/
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20vw;
+}
+
+#main > .certification > .container > .content-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+}
+
+#main > .certification > .container > .content-container > .content-box {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#main > .certification > .container > .content-container > .content-box > span {
+    margin-right: 1.5rem;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#main > .certification > .container > .content-container > .content-box > .ymd {
+    width: 9rem;
+    font-size: 1rem;
+    color: #636363;
+}
+
+#main > .certification > .container > .content-container > .content-box > .caption {
+    width: 13rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#main > .certification > .container > .content-container > .content-box > .issuer {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8c8c8c;
 }
 
 #main > .license {
@@ -652,12 +689,22 @@
     }
 
     /* certification */
-    #main > .certification > .container {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 5rem;
+    #main > .certification > .container > .content-container > .content-box > .ymd {
+        width: 6.5rem;
+        font-size: 0.8rem;
+        color: #636363;
+    }
+
+    #main > .certification > .container > .content-container > .content-box > .caption {
+        width: 8rem;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    #main > .certification > .container > .content-container > .content-box > .issuer {
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: #8c8c8c;
     }
 
     /* license */

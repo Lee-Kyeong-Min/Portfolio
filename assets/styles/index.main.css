@@ -92,15 +92,15 @@
     margin: 0.2rem 0;
 
     color: #ffffff;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 450;
     text-shadow: 0.15rem 0.15rem 0 #2a72b0;
     letter-spacing: 0.4rem;
 }
 
 #main > .home > .title-container > .introduce > .word-point {
-    font-size: 1.2rem;
-    font-weight: 450;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 #main > .about-me {

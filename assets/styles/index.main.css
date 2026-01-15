@@ -213,7 +213,7 @@
     border-radius: 0.8rem;
     box-shadow: 0.1rem 0.1rem 0.1rem #000000;
 
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -224,11 +224,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    object-fit: cover;
 }
 
 #main > .experiences > .experiences-pictures > .container > .icon {
-    width: 11rem;
-    height: 7rem;
+    width: 18rem;
+    height: 15rem;
 
     margin-bottom: 1.5rem;
 }
@@ -389,7 +390,7 @@
 }
 
 #main > .certification > .container > .content-container > .content-box > .caption {
-    width: 13rem;
+    width: 18rem;
     font-size: 1.2rem;
     font-weight: 800;
 }
@@ -516,7 +517,7 @@
 #main > .career > .history > .side {
     margin: 1rem 0;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 
     width: 100%;
 
@@ -800,8 +801,8 @@
     #main > .experiences > .experiences-pictures > .container > .icon {
         margin-bottom: 0;
 
-        width: 9.5rem;
-        height: 6.5rem;
+        width: 12em;
+        height: 12rem;
     }
 
     /* career */
